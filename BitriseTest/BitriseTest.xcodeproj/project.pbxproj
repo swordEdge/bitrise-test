@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					AC3BEF891F7CFBA7006E7932 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -184,7 +184,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Code 3 Apps LLC (5JZ562WR45)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Code 3 Apps LLC (5JZ562WR45)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -234,7 +235,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Code 3 Apps LLC (5JZ562WR45)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Code 3 Apps LLC (5JZ562WR45)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -260,11 +262,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Code 3 Apps LLC (5JZ562WR45)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BitriseTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code3apps.C3suite-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6091eb59-3e88-4ef8-a9c8-8c10a81e030c";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise-AppStore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -273,11 +279,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Code 3 Apps LLC (5JZ562WR45)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BitriseTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code3apps.C3suite-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6091eb59-3e88-4ef8-a9c8-8c10a81e030c";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise-AppStore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
